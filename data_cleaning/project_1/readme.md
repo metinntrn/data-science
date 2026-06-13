@@ -30,7 +30,7 @@ The core libraries used in this project are:
 
 📂 File Structure
 
-    data_cleaningg.ipynb: The process of transforming the raw dataset into a cleaned version.
+    main.ipynb: The process of transforming the raw dataset into a cleaned version.
 
     data_visualation.ipynb: Interactive analyses performed using the cleaned data.
 
