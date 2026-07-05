@@ -9,7 +9,7 @@ A curated portfolio showcasing data science, exploratory data analysis (EDA), an
 - Interactive visualizations, core statistical metrics, and insight extraction.
 - [Detailed README](./EDA/README.md)
 
-### 2. 🧹 **Data Cleaning (YouTube Dataset)**
+### 2. 🧹 **Data Cleaning**
 - End-to-end processing and pipeline design for real-world messy datasets.
 - Handling missing values, addressing logical anomalies, and outlier management.
 - Automated data profiling and Markdown quality report generation.
