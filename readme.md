@@ -7,13 +7,13 @@ A curated portfolio showcasing data science, exploratory data analysis (EDA), an
 ### 1. 📈 **EDA (Exploratory Data Analysis)**
 - Deep-dive analysis and structural profiling of datasets.
 - Interactive visualizations, core statistical metrics, and insight extraction.
-- [Detailed README](./EDA/README.md)
+  
 
 ### 2. 🧹 **Data Cleaning**
 - End-to-end processing and pipeline design for real-world messy datasets.
 - Handling missing values, addressing logical anomalies, and outlier management.
 - Automated data profiling and Markdown quality report generation.
-- [Detailed README](./data_cleaning/README.md)
+  
 
 ## 🛠️ Tech Stack & Ecosystem
 
