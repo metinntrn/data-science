@@ -20,7 +20,7 @@ A curated portfolio showcasing data science, exploratory data analysis (EDA), an
 - **Python 3.9+** – Core programming language
 - **Jupyter Notebook** – Interactive development environment
 - **Pandas** – Data manipulation, alignment, and transformation
-- **Matplotlib / Seaborn** – Statistical data visualization
+- **Plotly** – Statistical data visualization
 - **NumPy** – High-performance vectorized numerical operations
 
 ## 📦 Installation & Setup
