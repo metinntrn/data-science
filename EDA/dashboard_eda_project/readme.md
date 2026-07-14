@@ -52,6 +52,5 @@ This project provides a comprehensive analysis of Apple's pricing strategy acros
 - **Streamlit** - Web framework
 - **Plotly** - Interactive visualizations
 - **Pandas** - Data manipulation
-- **NumPy** - Numerical computing
 - **pathlib** - File path handling
 
