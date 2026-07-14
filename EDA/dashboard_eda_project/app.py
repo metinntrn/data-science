@@ -95,7 +95,7 @@ def main():
 
     st.title("📊 Sales Dashboard")
 
-    data_path = "cleaned_data.csv"
+    data_path = "EDA/dashboard_eda_project/cleaned_data.csv"
 
     df = load_data(data_path)
 
