@@ -1,7 +1,7 @@
 # 📱 Apple Products Pricing Dashboard
 
 Interactive Streamlit dashboard analyzing Apple product pricing strategies from 2020-2026.
-
+**lİNK TO APP**:https://icuwtqxtuqxfgkw7reqczl.streamlit.app/
 ## 🎯 Overview
 
 This project provides a comprehensive analysis of Apple's pricing strategy across different product categories (iPhone, Mac, iPad, AirPods, etc.) over a 6-year period. Includes stock status tracking, discount analysis, and customer ratings.
