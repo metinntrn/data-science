@@ -188,7 +188,7 @@ def plotly_chart(df):
 def main():
     st.title("🤖 LLM Usage Dashboard")
 
-    data_path = "../data/genai_llm_usage_dataset_1000.csv"
+    data_path = "EDA/dashboard_project_2_LLM_Usage_Dashboard/genai_llm_usage_dataset_1000.csv"
 
     df = load_data(data_path)
 
