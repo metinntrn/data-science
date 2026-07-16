@@ -61,6 +61,4 @@ The dataset includes information such as:
 - More advanced analytics
 - Time-series visualizations
 
-## License
 
-This project is licensed under the MIT License.
