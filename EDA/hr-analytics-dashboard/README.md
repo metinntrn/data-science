@@ -4,6 +4,9 @@ Interactive HR analytics dashboard built with Streamlit and Plotly.
 
 Repository: [data-science/EDA](https://github.com/metinntrn/data-science/tree/main/EDA)
 
+
+**App Link**:https://hr-analytic-dahsboard-metintrn.streamlit.app/
+
 ## Project Structure
 
 ```
