@@ -1,64 +1,257 @@
-# HR Analytics Dashboard
+# 📊 HR Analytics Dashboard
 
-Interactive HR analytics dashboard built with Streamlit and Plotly.
+An interactive Human Resources analytics dashboard built with **Streamlit**, **Pandas**, and **Plotly** to explore employee demographics, workforce trends, and employee attrition.
 
-Repository: [data-science/EDA](https://github.com/metinntrn/data-science/tree/main/EDA)
+The dashboard enables HR professionals and business analysts to monitor workforce metrics, identify turnover patterns, and gain actionable insights through interactive visualizations.
 
+---
 
-**App Link**:https://hr-analytic-dahsboard-metintrn.streamlit.app/
+# 🚀 Live Demo
 
-## Project Structure
+👉 https://hr-analytic-dahsboard-metintrn.streamlit.app/
+
+---
+
+# 📂 Repository
+
+https://github.com/metinntrn/data-science/tree/main/EDA
+
+---
+
+# 📸 Dashboard Preview
+
+> Place screenshots inside an `images/` folder.
+
+| Overview | Employees |
+|----------|-----------|
+| ![](images/overview.png) | ![](images/employees.png) |
+
+| Attrition | Insights |
+|-----------|----------|
+| ![](images/attrition.png) | ![](images/insights.png) |
+
+---
+
+# ✨ Features
+
+- Interactive dashboard built with Streamlit
+- Multi-page application
+- Sidebar navigation
+- Dynamic filtering by:
+  - Department
+  - Gender
+  - Job Role
+  - Attrition
+- Real-time KPI metrics
+- Interactive Plotly visualizations
+- Responsive dark theme
+- Correlation analysis
+- Workforce insights
+
+---
+
+# 📊 Dashboard Metrics
+
+The dashboard provides key HR metrics including:
+
+- Total Employees
+- Attrition Rate
+- Average Monthly Income
+- Average Job Satisfaction
+
+---
+
+# 📈 Dashboard Pages
+
+## 🏠 Overview
+
+Provides a high-level summary of the workforce.
+
+Includes:
+
+- KPI Cards
+- Employee Count by Department
+- Gender Distribution
+- Attrition Distribution
+
+---
+
+## 👥 Employee Analytics
+
+Analyze employee demographics and compensation.
+
+Visualizations include:
+
+- Employee Count by Job Role
+- Monthly Income by Job Role
+- Age Distribution by Department
+
+---
+
+## 📉 Attrition Analysis
+
+Identify employee turnover patterns.
+
+Visualizations include:
+
+- Attrition Rate by Department
+- Attrition Rate by Job Role
+- Attrition Rate by Overtime
+
+---
+
+## 📊 Insights & Trends
+
+Advanced analytical visualizations.
+
+Includes:
+
+- Correlation Heatmap
+- Monthly Income vs Years at Company
+- Age vs Monthly Income
+
+---
+
+# 📋 Dataset
+
+Dataset:
+
+```
+HR_Analytics.csv
+```
+
+The dataset contains employee information such as:
+
+- Age
+- Gender
+- Department
+- Job Role
+- Monthly Income
+- Years at Company
+- Overtime
+- Job Satisfaction
+- Performance Rating
+- Attrition
+- Education
+- Work-Life Balance
+- Environment Satisfaction
+- Relationship Satisfaction
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Plotly Express
+- NumPy
+
+---
+
+# 📁 Project Structure
 
 ```
 EDA/
-├── main.py                 # App entry point
+│
+├── main.py
 ├── requirements.txt
+├── README.md
+│
 ├── data/
-│   └── HR_Analytics.csv    # Dataset
+│   └── HR_Analytics.csv
+│
 ├── screens/
 │   ├── overview.py
 │   ├── employees.py
 │   ├── attrition.py
 │   └── insights.py
-└── utils/
-    ├── paths.py            # Project paths (GitHub-safe)
-    ├── loader.py
-    ├── sidebar.py
-    ├── kpi.py
-    ├── plots.py
-    └── formater.py
+│
+├── utils/
+│   ├── paths.py
+│   ├── loader.py
+│   ├── sidebar.py
+│   ├── kpi.py
+│   ├── plots.py
+│   └── formatter.py
+│
+└── images/
 ```
 
-## Setup
+---
+
+# 📦 Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/data-science/EDA.git
-cd EDA
+git clone https://github.com/metinntrn/data-science.git
+```
 
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+Navigate to the project
 
+```bash
+cd data-science/EDA
+```
+
+Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-## Run
+Run the application
 
 ```bash
 streamlit run main.py
 ```
 
-Open `http://localhost:8501` in your browser.
+---
 
-## Pages
+# 💼 Business Questions Answered
 
-| Page | Content |
-|------|---------|
-| Overview | KPI cards, department/gender/attrition charts, filtered data table |
-| Employees | Job role distribution, salary and age analysis |
-| Attrition | Attrition rates by department, role, and overtime |
-| Insights | Correlation heatmap, income vs tenure, age vs income |
+The dashboard helps answer questions such as:
 
-## Notes
+- Which department has the highest employee turnover?
+- Which job roles experience the highest attrition?
+- Does overtime correlate with employee attrition?
+- How does salary vary across different job roles?
+- What is the gender distribution across departments?
+- How are employee age and income related?
+- Which workforce metrics have the strongest correlations?
 
-- Data paths are resolved from the project root via `utils/paths.py`.
-- Use `streamlit run main.py` — do not run with `python main.py`.
+---
+
+# 🎯 Skills Demonstrated
+
+This project demonstrates experience with:
+
+- Exploratory Data Analysis (EDA)
+- Interactive Dashboard Development
+- Business Intelligence Reporting
+- KPI Design
+- HR Data Analytics
+- Data Aggregation with Pandas
+- Interactive Data Visualization
+- Multi-page Streamlit Applications
+- Deployment with Streamlit Community Cloud
+
+---
+
+# 🔮 Future Improvements
+
+- Employee search functionality
+- CSV and Excel export
+- Predictive attrition modeling
+- Salary forecasting
+- Department comparison dashboard
+- Time-series workforce analysis
+- Authentication system
+
+---
+
+# 👨‍💻 Author
+
+**Metin**
+
+GitHub: https://github.com/metinntrn
