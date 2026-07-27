@@ -1,4 +1,4 @@
-# 📊 Data Science Portfolio
+# 📊 Data Science
 
 A collection of hands-on **Data Science**, **Exploratory Data Analysis (EDA)**, and **Data Cleaning** projects built with Python.
 
