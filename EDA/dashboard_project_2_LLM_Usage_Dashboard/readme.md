@@ -12,8 +12,6 @@ The dashboard provides interactive visualizations, performance metrics, filterin
 
 # 📸 Dashboard Preview
 
-> Add screenshots here
-
 ![Dashboard](images/llm_usage_dashboard.png)
 
 ---
