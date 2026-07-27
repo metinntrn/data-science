@@ -26,7 +26,6 @@ Each project focuses on solving a real-world business problem using Python and m
 | **Sales Dashboard** | Interactive dashboard analyzing Apple product pricing, discounts, inventory, and ratings. | Streamlit, Plotly, Pandas |
 | **HR Analytics Dashboard** | HR dashboard exploring employee performance, attrition, salaries, and workforce insights. | Streamlit, Plotly, Pandas |
 | **LLM Usage Dashboard** | Dashboard for analyzing Large Language Model usage statistics and trends. | Streamlit, Plotly |
-| **Data Cleaning Pipeline** | Automated data profiling, cleaning, and preprocessing pipeline for real-world datasets. | Pandas, NumPy |
 | **EDA Projects** | Exploratory analysis notebooks and preprocessing examples across different datasets. | Pandas, Matplotlib, Plotly |
 
 ---
@@ -45,16 +44,12 @@ Each project focuses on solving a real-world business problem using Python and m
 ## Visualization
 
 - Plotly
-- Matplotlib
 
 ## Dashboard
 
 - Streamlit
 
 ## Utilities
-
-- IceCream
-- Tabulate
 - pathlib
 
 ---
