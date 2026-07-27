@@ -20,7 +20,6 @@ https://github.com/metinntrn/data-science/tree/main/EDA
 
 # 📸 Dashboard Preview
 
-> Place screenshots inside an `images/` folder.
 
 | Overview | Employees |
 |----------|-----------|
