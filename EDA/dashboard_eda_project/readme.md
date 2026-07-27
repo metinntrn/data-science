@@ -14,8 +14,6 @@ The dashboard enables users to analyze pricing trends, compare product categorie
 
 # 📸 Dashboard Preview
 
-> Add screenshots inside an `images/` folder.
-
 ![Dashboard](images/dashboard.png)
 
 ---
