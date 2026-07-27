@@ -1,33 +1,147 @@
-# 📊 Data Science Projects
+# 📊 Data Science Portfolio
 
-A curated portfolio showcasing data science, exploratory data analysis (EDA), and automated data cleaning pipelines.
+A collection of hands-on **Data Science**, **Exploratory Data Analysis (EDA)**, and **Data Cleaning** projects built with Python.
 
-## 🎯 Projects
+The goal of this repository is to practice real-world data workflows, including data profiling, preprocessing, visualization, and automated cleaning pipelines.
 
-### 1. 📈 **EDA (Exploratory Data Analysis)**
-- Deep-dive analysis and structural profiling of datasets.
-- Interactive visualizations, core statistical metrics, and insight extraction.
-  
+---
 
-### 2. 🧹 **Data Cleaning**
-- End-to-end processing and pipeline design for real-world messy datasets.
-- Handling missing values, addressing logical anomalies, and outlier management.
-- Automated data profiling and Markdown quality report generation.
-  
+## 📂 Repository Structure
 
-## 🛠️ Tech Stack & Ecosystem
+```
+.
+├── EDA/
+│   ├── dashboard_eda_project/
+│   ├── hr-analytics-dashboard/
+│   └── ...
+│
+├── data_cleaning/
+│   ├── E-CommerceData Cleaning/
+│   ├── YouTubeRecommendation_data_cleaning/
+│   └── retail-data-cleaning/
+│
+├── requirements.txt
+└── README.md
+```
 
-- **Python 3.9+** – Core programming language
-- **Jupyter Notebook** – Interactive development environment
-- **Pandas** – Data manipulation, alignment, and transformation
-- **Plotly** – Statistical data visualization
-- **NumPy** – High-performance vectorized numerical operations
+---
 
-## 📦 Installation & Setup
+# 📈 EDA Projects
+
+Projects focused on understanding datasets through statistics and visualization.
+
+### Included Projects
+
+- 📊 HR Analytics Dashboard
+- 📊 Sales Dashboard
+- 📊 LLM Usage Dashboard
+- 📊 Exploratory Data Analysis notebooks
+
+Topics covered:
+
+- Data Profiling
+- Feature Exploration
+- Correlation Analysis
+- Interactive Dashboards
+- Business Insights
+- Plotly Visualizations
+
+---
+
+# 🧹 Data Cleaning Projects
+
+Production-style preprocessing pipelines for messy real-world datasets.
+
+### Included Projects
+
+- 🛒 E-Commerce Data Cleaning Pipeline
+- 🎥 YouTube Recommendation Dataset Cleaning
+- 🏪 Retail Dataset Cleaning
+
+Topics covered:
+
+- Missing Value Handling
+- Duplicate Removal
+- Data Type Conversion
+- Category Standardization
+- Time-Series Cleaning
+- Outlier Handling
+- Automated Markdown Reports
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Streamlit
+- Jupyter Notebook
+- IceCream
+- Tabulate
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository:
 
 ```bash
-# Install the required dependencies
-pip install -r requirements.txt
+git clone https://github.com/metinntrn/data-science.git
 
-# Launch the Jupyter Notebook environment
+cd data-science
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+For dashboard projects:
+
+```bash
+streamlit run main.py
+```
+
+For notebook projects:
+
+```bash
 jupyter notebook
+```
+
+---
+
+# 🎯 Learning Goals
+
+This repository documents my journey toward becoming a **Data Scientist** by building practical projects in:
+
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Data Visualization
+- Dashboard Development
+- Statistics
+- Machine Learning (coming soon)
+
+---
+
+## 📌 Future Projects
+
+- Machine Learning
+- Feature Engineering
+- SQL Projects
+- Time Series Analysis
+- Deep Learning
+- NLP
+
+---
+
+## 👨‍💻 Author
+
+**Metin**
+
+Aspiring Data Scientist focused on Python, data analysis, visualization, and machine learning.
+
+GitHub:
+https: https://github.com/metinntrn
