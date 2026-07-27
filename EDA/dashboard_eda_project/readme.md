@@ -1,58 +1,181 @@
 # 📱 Apple Products Pricing Dashboard
 
-Interactive Streamlit dashboard analyzing Apple product pricing strategies from 2020-2026.
+An interactive analytics dashboard built with **Streamlit**, **Pandas**, and **Plotly** for exploring Apple product pricing, discounts, inventory, and customer ratings across multiple sales platforms.
 
-**lİNK TO APP**:https://icuwtqxtuqxfgkw7reqczl.streamlit.app/
+The dashboard enables users to analyze pricing trends, compare product categories, monitor stock availability, and explore discount strategies through interactive visualizations.
 
-## 🎯 Overview
+---
 
-This project provides a comprehensive analysis of Apple's pricing strategy across different product categories (iPhone, Mac, iPad, AirPods, etc.) over a 6-year period. Includes stock status tracking, discount analysis, and customer ratings.
+## 🚀 Live Demo
 
-## ✨ Features
+👉 https://icuwtqxtuqxfgkw7reqczl.streamlit.app/
 
-- 📊 **Real-time Filters** - Filter by platform, category, and stock status
-- 💰 **Discount Analysis** - Track pricing reductions across products
-- 📈 **Stock Monitoring** - Visualize in-stock vs out-of-stock items
-- ⭐ **Rating Insights** - Customer satisfaction analysis
-- 🎨 **Interactive Charts** - Hover, zoom, and explore data
-- 📱 **Responsive Design** - Works on desktop and mobile
+---
 
-## 📊 Dashboard Components
+# 📸 Dashboard Preview
 
-### Metrics Section
-- **Out of Stock Items** - Count of unavailable products
-- **In Stock Items** - Count of available products
-- **Discounted Products** - Number of products with price reductions
+> Add screenshots inside an `images/` folder.
 
-### Charts
-1. **Average Discount by Platform** - Bar chart showing discount percentages by platform
-2. **Category Comparison** - Bar chart of average prices by product category
-3. **Stock Status** - Pie chart showing stock distribution
+![Dashboard](images/dashboard.png)
 
-## 📋 Dataset
+---
 
-**Source:** Apple Products Pricing Dataset (2020-2026)
+# ✨ Features
 
-**Columns:**
-- `Date` - Date of record
-- `Platform` - Sales platform (e.g., Apple Store, Amazon, etc.)
-- `Product_Category` - Category (iPhone, Mac, iPad, AirPods, etc.)
-- `Condition` - Product condition (New, Refurbished, Open Box)
-- `Launch_Price_USD` - Original launch price
-- `Current_Price_USD` - Current selling price
-- `Discount_Pct` - Discount percentage
-- `Sale_Event` - Promotional event (if any)
-- `Stock_Status` - In Stock / Out of Stock
-- `Rating` - Customer rating (1-5 stars)
-- `Reviews_Count` - Number of customer reviews
+- Interactive dashboard built with Streamlit
+- Filter by Platform
+- Filter by Product Category
+- Real-time KPI metrics
+- Interactive Plotly charts
+- Inventory monitoring
+- Discount analysis
+- Customer rating insights
+- Responsive dashboard layout
 
-**Size:** 1,000+ products
+---
 
-## 🛠️ Technologies
+# 📊 Dashboard Metrics
 
-- **Python 3.9+**
-- **Streamlit** - Web framework
-- **Plotly** - Interactive visualizations
-- **Pandas** - Data manipulation
-- **pathlib** - File path handling
+The dashboard provides key business metrics including:
 
+- Out of Stock Items
+- In Stock Items
+- Discounted Products
+
+---
+
+# 📈 Visualizations
+
+### Average Discount by Platform
+
+Compare average discounts across different online marketplaces.
+
+### Products Rated 4.0+ by Category
+
+Identify which product categories receive the highest number of highly rated products.
+
+### Stock Status Distribution
+
+Analyze inventory availability using a donut chart.
+
+---
+
+# 📋 Dataset
+
+Dataset:
+
+```
+cleaned_apple_products.csv
+```
+
+The dataset contains information such as:
+
+- Platform
+- Product Category
+- Product Name
+- Launch Price
+- Current Price
+- Discount Percentage
+- Customer Rating
+- Review Count
+- Stock Status
+- Availability
+- Product Condition
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Plotly Express
+
+---
+
+# 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/apple-products-dashboard.git
+```
+
+Navigate into the project
+
+```bash
+cd apple-products-dashboard
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📁 Project Structure
+
+```
+apple-products-dashboard/
+│
+├── app.py
+├── cleaned_apple_products.csv
+├── requirements.txt
+├── README.md
+└── images/
+    └── dashboard.png
+```
+
+---
+
+# 🎯 What I Practiced
+
+This project helped me improve my skills in:
+
+- Data cleaning with Pandas
+- Interactive dashboard development
+- KPI calculation
+- Business data visualization
+- Plotly chart customization
+- Streamlit filtering
+- Dashboard deployment using Streamlit Community Cloud
+
+---
+
+# 💼 Business Insights
+
+Using this dashboard, users can quickly answer questions such as:
+
+- Which platform offers the highest average discounts?
+- Which Apple product category receives the most positive ratings?
+- What percentage of products are currently in stock?
+- How many products are discounted?
+- How does inventory vary across categories?
+
+---
+
+# 🔮 Future Improvements
+
+- Price trend analysis over time
+- Product search functionality
+- CSV export for filtered data
+- Additional filters
+- Sales forecasting
+- Interactive comparison page
+- Mobile UI improvements
+
+---
+
+# 👨‍💻 Author
+
+**Metin**
+
+GitHub: https://github.com/metinntrn
