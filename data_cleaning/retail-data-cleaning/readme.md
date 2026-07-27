@@ -1,144 +1,144 @@
-# 🛒 E-Commerce Data Cleaning Pipeline
+# 📊 Data Processing Pipeline
 
-A modular Python pipeline for cleaning and preprocessing raw e-commerce transaction data using **Pandas**.
-
-The project demonstrates practical data engineering concepts such as data validation, missing value handling, duplicate removal, data type conversion, and reusable pipeline design.
+A modular Python pipeline for profiling, cleaning, and preparing raw datasets for data analysis. The project automatically generates dataset quality reports, standardizes data types, handles missing values, and prepares clean data for downstream analytics.
 
 ---
 
-# 🚀 Overview
+## ✨ Features
 
-Real-world e-commerce datasets often contain missing customer information, duplicate transactions, cancelled orders, and inconsistent data types.
+- 📄 **Automatic Dataset Profiling**
+  - Total rows and columns
+  - Missing value analysis
+  - Missing value percentages
+  - Data type summary
+  - Export to Markdown report
 
-This project automates the preprocessing workflow to transform raw transaction data into a clean, analysis-ready dataset suitable for business intelligence and machine learning tasks.
+- 🧹 **Data Cleaning Pipeline**
+  - Removes records with missing `ProductName`
+  - Fills missing `Brand` values with `"Generic"`
+  - Fills missing `Raw_Weight` values with `"Unknown"`
+  - Replaces missing `UnitPrice` values using the median
 
----
+- 📅 **Automatic Date Conversion**
+  - Converts the `OrderDate` column into Pandas datetime format.
 
-# ✨ Features
+- ⚠️ **Exception Handling**
+  - Every pipeline step is protected using `try-except` blocks for safer execution.
 
-- Load large CSV datasets safely
-- Handle missing values
-- Remove duplicate records
-- Standardize data types
-- Filter cancelled and invalid transactions
-- Modular and reusable pipeline
-- Exception handling with `try-except`
-- Export cleaned dataset
-
----
-
-# 📊 Dataset
-
-Dataset:
-
-```
-OnlineRetail.csv
-```
-
-Source:
-
-https://www.kaggle.com/datasets/vijayuv/onlineretail
-
-The dataset contains more than **540,000** e-commerce transactions from a UK-based online retailer.
-
-### Main Columns
-
-- Invoice Number
-- Stock Code
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
-
-> **Note:** The dataset is not included in this repository because of its size. Download it from Kaggle and place it inside the `data/` folder before running the project.
+- 📑 **Markdown Report Generation**
+  - Automatically creates a dataset summary in `report.md`.
 
 ---
 
-# ⚙️ Pipeline Workflow
-
-The pipeline consists of four independent stages.
-
-## 1. Load Data
-
-- Read CSV file
-- Handle ISO-8859-1 encoding
-- File exception handling
-
----
-
-## 2. Data Cleaning
-
-- Remove missing `CustomerID`
-- Fill missing product descriptions
-- Remove duplicate rows
-
----
-
-## 3. Data Type Conversion
-
-- Convert `InvoiceDate` to `datetime`
-- Convert `CustomerID` to integer
-
----
-
-## 4. Transaction Validation
-
-Remove transactions with:
-
-- Negative Quantity
-- Zero Quantity
-- Negative Unit Price
-- Zero Unit Price
-
-The cleaned dataset is then exported as:
-
-```
-OnlineRetail_Cleaned.csv
-```
-
----
-
-# 📁 Project Structure
+## 📂 Project Structure
 
 ```text
-ecommerce-data-cleaning/
+project/
 │
-├── data/
-│   └── OnlineRetail.csv
-│
-├── output/
-│   └── OnlineRetail_Cleaned.csv
-│
-├── cleaning_pipeline.py
-├── requirements.txt
-└── README.md
+├── data_cleaning.py      # Main pipeline
+├── report.md             # Auto-generated dataset report
+├── cleaned_data.csv      # Cleaned dataset (optional)
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-# 🛠 Tech Stack
+## ⚙️ Pipeline Workflow
 
-- Python
-- Pandas
-- IceCream
-- pathlib
+```
+Load Dataset
+      │
+      ▼
+Generate Dataset Report
+      │
+      ▼
+Convert Data Types
+      │
+      ▼
+Clean Missing Values
+      │
+      ▼
+Return Clean Dataset
+```
 
 ---
 
-# 📦 Installation
+## 📋 Data Cleaning Rules
+
+| Column | Action |
+|---------|--------|
+| ProductName | Remove rows with missing values |
+| Brand | Fill with `"Generic"` |
+| Raw_Weight | Fill with `"Unknown"` |
+| UnitPrice | Fill with median value |
+| OrderDate | Convert to datetime |
+
+---
+
+## 📄 Generated Report
+
+The pipeline automatically creates a **report.md** file containing:
+
+- Dataset dimensions
+- Missing value counts
+- Missing value percentages
+- Data types
+- Markdown formatted summary table
+
+Example:
+
+```markdown
+# Dataset Profile Report
+
+Rows: 10,000
+
+Columns: 15
+
+| Column | Missing | Missing % |
+|---------|---------|-----------|
+| Brand | 25 | 0.25 |
+| UnitPrice | 12 | 0.12 |
+```
+
+---
+
+## 🛠️ Technologies
+
+- Python 3.x
+- Pandas
+- IceCream
+- Tabulate
+
+---
+
+## 📦 Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/metinntrn/data-science.git
+git clone https://github.com/yourusername/project.git
+cd project
 ```
 
-Navigate to the project
+Create a virtual environment
 
 ```bash
-cd data-science/data_cleaning/ecommerce-data-cleaning
+python -m venv .venv
+```
+
+Activate it
+
+Linux/macOS
+
+```bash
+source .venv/bin/activate
+```
+
+Windows
+
+```bash
+.venv\Scripts\activate
 ```
 
 Install dependencies
@@ -149,61 +149,41 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run
+## ▶️ Usage
+
+Run the pipeline
 
 ```bash
-python cleaning_pipeline.py
+python data_cleaning.py
 ```
 
 ---
 
-# 📂 Output
+## 📤 Output
 
-After execution, the pipeline generates:
+After execution, the project generates:
 
 ```
-OnlineRetail_Cleaned.csv
+report.md
 ```
 
-The cleaned dataset is ready for:
-
-- Exploratory Data Analysis (EDA)
-- RFM Analysis
-- Customer Segmentation
-- Cohort Analysis
-- Sales Analytics
-- Machine Learning
+and returns the cleaned dataframe.
 
 ---
 
-# 🎯 Skills Demonstrated
+## 📌 Future Improvements
 
-This project demonstrates experience with:
-
-- Data Cleaning
-- Data Validation
-- Data Preprocessing
-- Pandas
-- Exception Handling
-- Modular Python Programming
-- ETL Fundamentals
-- File Handling
-
----
-
-# 🔮 Future Improvements
-
-- Logging with the `logging` module
-- Unit tests using `pytest`
+- Duplicate detection
+- Outlier detection
+- Data validation
+- Automatic visualization
+- Export cleaned data to CSV
+- Logging support
 - Configuration file support
-- Command-line interface (CLI)
-- Automatic data quality reports
-- Docker support
+- Unit testing
 
 ---
 
-# 👨‍💻 Author
+## 📄 License
 
-**Metin**
-
-GitHub: https://github.com/metinntrn
+This project is intended for educational and portfolio purposes.
