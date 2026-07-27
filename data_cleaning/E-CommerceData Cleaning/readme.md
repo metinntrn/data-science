@@ -109,12 +109,6 @@ ecommerce-cleaning/
 ├── main.py
 ├── requirements.txt
 ├── README.md
-│
-├── data/
-│   └── OnlineRetail.csv
-│
-└── output/
-    └── OnlineRetail_Cleaned.csv
 ```
 
 ---
