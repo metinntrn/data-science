@@ -35,7 +35,7 @@ A modular Python pipeline for profiling, cleaning, and preparing raw datasets fo
 ```text
 project/
 │
-├── data_cleaning.py      # Main pipeline
+├── cleaning_pipeline.py  # Main pipeline
 ├── report.md             # Auto-generated dataset report
 ├── cleaned_data.csv      # Cleaned dataset (optional)
 ├── README.md
